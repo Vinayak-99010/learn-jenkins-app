@@ -6,7 +6,6 @@ pipeline {
             agent {
                 docker {
                     image 'helloworld'
-                    
                     reuseNode true
                 }
             }
